@@ -34,14 +34,12 @@ function TodoList({ todoList ,remove}) {
 export default React.memo(TodoList)
 const styles = StyleSheet.create({
     list_wrapper: {
-
         backgroundColor: "#eeeeee",
         marginRight: "auto",
         marginLeft: "auto",
         marginBottom: 9,
         borderRadius: 10,
         padding: 5
-
     },
     text: {
         fontSize: 16,
